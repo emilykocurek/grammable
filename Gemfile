@@ -62,6 +62,7 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 group :development, :test do
   gem 'rspec-rails', '~> 3.5'
+  gem "factory_bot_rails"
 end
 gem 'popper_js', '~> 1.11.1'
 gem 'bootstrap', '4.0.0.alpha6'
@@ -71,3 +72,4 @@ source 'https://rails-assets.org' do
 end
 gem 'simple_form'
 gem 'devise'
+
